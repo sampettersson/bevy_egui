@@ -39,7 +39,7 @@ name = "ui"
 required-features = ["render"]
 
 [dependencies]
-bevy = { version = "0.13", default-features = false, features = [
+bevy = { version = "0.14.0-dev", default-features = false, features = [
     "bevy_asset",
 ] }
 egui = { version = "0.26", default-features = false, features = ["bytemuck"] }
